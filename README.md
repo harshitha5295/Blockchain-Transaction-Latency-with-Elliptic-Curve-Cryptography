@@ -1,12 +1,13 @@
-# Blockchain-Transaction-Latency-with-Elliptic-Curve-Cryptography
-This project analyzes transaction latency in a blockchain environment, specifically focusing on how different block sizes and block creation frequencies affect transaction processing times. The study is implemented using Ethereum smart contracts and the Hardhat development framework.
+# Sample Hardhat Project
 
-## Getting Started
+This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
 
-### Prerequisites
+Try running some of the following tasks:
 
-1. **Node.js**: Make sure you have Node.js installed. You can download it from [nodejs.org](https://nodejs.org/).
-2. **NPM**: Node Package Manager comes with Node.js, but you can also install it separately.
-3. **Hardhat**: Install Hardhat globally by running:
-   ```bash
-   npm install --global hardhat
+```shell
+npx hardhat help
+npx hardhat test
+REPORT_GAS=true npx hardhat test
+npx hardhat node
+npx hardhat ignition deploy ./ignition/modules/Lock.js
+```
