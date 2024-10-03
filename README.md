@@ -1,13 +1,4 @@
-# Sample Hardhat Project
+# Transaction Latency Analysis in Blockchain with Elliptic Curve Cryptography:
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+This project analyzes transaction latency in a blockchain environment, specifically focusing on how different block sizes and block creation frequencies affect transaction processing times. The study is implemented using Ethereum smart contracts and the Hardhat development framework.
 
-Try running some of the following tasks:
-
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
